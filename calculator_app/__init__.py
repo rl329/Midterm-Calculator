@@ -2,8 +2,8 @@
 Calculator app package initialization.
 """
 
-from calculator_app.calculations import Calculations
-from calculator_app.operations import add, subtract, multiply, divide
+from calculator_app.calc_history import CalcHistory
+from calculator_app.calc_operation import add, subtract, multiply, divide
 from calculator_app.calculation import Calculation
 from decimal import Decimal
 from typing import Callable
@@ -15,7 +15,7 @@ class Calculator:
     def _perform_operation(a: Decimal, b: Decimal, operation: Callable[[Decimal, Decimal], Decimal]) -> Decimal:
         """Create and perform a calculation, then return the result."""
         calculation = Calculation.create(a, b, operation)
-        Calculations.add_calculation(calculation)
+        CalcHistory.add_calculation(calculation)
         return calculation.perform()
 
     @staticmethod
