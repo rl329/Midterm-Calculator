@@ -4,6 +4,10 @@ from calculator_app.calculator import Calculator
 import importlib
 import pkgutil
 import os
+from dotenv import load_dotenv  # Import dotenv to load .env
+
+# Load environment variables from .env file
+load_dotenv()
 
 def load_plugins():
     """
@@ -59,6 +63,14 @@ def repl():
     """
     Start the REPL loop to interact with the calculator.
     """
+    # Access environment variables
+    env_name = os.getenv("ENV_NAME", "production")
+    api_key = os.getenv("API_KEY", "No API Key Set")
+
+    # Display environment info at start
+    print(f"Running in {env_name} mode")
+    print(f"Using API key: {api_key}")
+
     calculator = Calculator()
     commands = load_plugins()
 
