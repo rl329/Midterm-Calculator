@@ -1,50 +1,47 @@
-"""Calculator module containing arithmetic operations and history management."""
-
-from typing import List, Tuple, Union
+from typing import List, Callable
+from decimal import Decimal
+from calculator_app.operations import add, subtract, multiply, divide
+from calculator_app.calculation import Calculation
 
 class Calculator:
-    """A class that performs basic arithmetic operations with history tracking."""
+    """Calculator class to perform operations and manage calculations."""
 
-    history: List[Tuple[str, Union[int, float]]] = []
+    history: List[Calculation] = []
 
-    @staticmethod
-    def add(a: float, b: float) -> float:
-        """Add two numbers."""
-        result = a + b
-        Calculator.history.append(("add", result))
-        return result
+    operations_map = {
+        "add": add,
+        "subtract": subtract,
+        "multiply": multiply,
+        "divide": divide,
+    }
 
-    @staticmethod
-    def subtract(a: float, b: float) -> float:
-        """Subtract two numbers."""
-        result = a - b
-        Calculator.history.append(("subtract", result))
-        return result
+    @classmethod
+    def perform_operation(cls, a: Decimal, b: Decimal, operation_name: str) -> Decimal:
+        """Perform the specified operation and store the result."""
+        try:
+            operation_func = cls.operations_map[operation_name]
+        except KeyError:
+            raise ValueError(f"Invalid operation: {operation_name}")
 
-    @staticmethod
-    def multiply(a: float, b: float) -> float:
-        """Multiply two numbers."""
-        result = a * b
-        Calculator.history.append(("multiply", result))
-        return result
+        result = operation_func(a, b)
 
-    @staticmethod
-    def divide(a: float, b: float) -> float:
-        """Divide two numbers. Raises an exception if dividing by zero."""
-        if b == 0:
-            raise ZeroDivisionError("Cannot divide by zero.")
-        result = a / b
-        Calculator.history.append(("divide", result))
+        # Store the calculation in history
+        calculation = Calculation.create(a, b, operation_func)
+        cls.history.append(calculation)
+
         return result
 
     @classmethod
-    def get_last_result(cls) -> Union[int, float]:
-        """Retrieve the result of the last calculation."""
-        if cls.history:
-            return cls.history[-1][1]
-        raise ValueError("No calculations in history.")
+    def get_history(cls) -> List[Calculation]:
+        """Return the history of all calculations."""
+        return cls.history
 
     @classmethod
     def clear_history(cls) -> None:
-        """Clear the calculation history."""
+        """Clear the history of calculations."""
         cls.history.clear()
+
+    @classmethod
+    def get_latest_calculation(cls) -> Calculation:
+        """Retrieve the latest calculation from the history."""
+        return cls.history[-1] if cls.history else None
