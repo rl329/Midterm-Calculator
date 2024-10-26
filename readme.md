@@ -28,7 +28,7 @@
 
 - [Main](main.py): The main program.
 - [.gitignore](.gitignore): The .gitignore used throughout my program.
-- [ENV File](.env): The .env file I created were it would display the API Keys. etc.
+- [ENV File](/home/rl329/Midterm_Calculator/.env): The .env file I created were it would display the API Keys. etc.
 
 ### Logging
 
