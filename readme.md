@@ -19,16 +19,16 @@
     This design would ensure only a single history is maintained throughout the calculator session. This would help it keep clean and orgainzed and have everything be stored under one history.
     The calc_history.py code includes _history where it states that only one instance of the history exists across the program.
 
-- [calc_history.py](calculator_app/calc_history.py): Calculator History code.
+- [Calculator History](calculator_app/calc_history.py): Calculator History code.
 
     ### Environment variables
 
     I used the environment variables in my main.py with the dotenv library. The purpose of this is to manage configurations. In my project I am using configurtations such as API keys.
     The way it works is by loading the .env file. The .env file is part of my .gitignore however I would provide a link to my .gitignore and .env file.
 
-- [main.py](main.py): The main program.
+- [Main](main.py): The main program.
 - [.gitignore](.gitignore): The .gitignore used throughout my program.
-- [.env](.env): The .env file I created were it would display the API Keys. etc.
+- [ENV File](.env): The .env file I created were it would display the API Keys. etc.
 
     ### Logging
 
@@ -37,8 +37,8 @@
     The purpose of logging is to log information, errors, warnings in order to track events for debugging or auditing purposes.
     The app.log would capture runtime logs, such as saving and loading hsitory.
 
-- [main.py](main.py): The main program.
-- [app.log](app.log): The separate application log file.
+- [Main](main.py): The main program.
+- [Application Log](app.log): The separate application log file.
 
 
     ### Usage of Try/Catch/Exceptions (LBYL and EAFP)
