@@ -1,5 +1,7 @@
 # Midterm Calculator
 
+This is a Python-based calculator that performs arithmetic operations, maintains a history of calculations using Pandas, and supports a plugin system for dynamic commands. It also demonstrates best practices for logging, exception handling, and environment management.
+
 ## Design Pattern
 
 ### Plugin System (Command Pattern)
@@ -24,18 +26,20 @@
 ### Environment variables
 
     I used the environment variables in my main.py with the dotenv library. The purpose of this is to manage configurations. In my project I am using configurtations such as API keys.
-    The way it works is by loading the .env file. The .env file is part of my .gitignore however I would provide a link to my .gitignore and .env file.
+    The way it works is by loading the .env file. The .env file is part of my .gitignore however I would provide a link to my .gitignore, however won't icnlude .env since it is sensentive information and won't be demosntrated on github.
 
 - [Main](main.py): The main program.
 - [.gitignore](.gitignore): The .gitignore used throughout my program.
-- [.env File](.env): The .env file I created were it would display the API Keys. etc.
+- # .env
+    ENV_NAME=development
+    API_KEY=your_api_key_here
+
 
 ### Logging
 
-    I used logging in my main.py program as well. The way logging was implented was through the logging library, however I designed it where everytime the program begins to log it would store the information in a seprate file
-    know as 'app.log'.
+    I used logging in my main.py program as well. The way logging was implented was through the logging library, however I designed it where everytime the program begins to log it would store the information in a seprate file know as 'app.log'.
     The purpose of logging is to log information, errors, warnings in order to track events for debugging or auditing purposes.
-    The app.log would capture runtime logs, such as saving and loading hsitory.
+    The app.log would capture runtime logs, such as start up events, plugin loading, command execution, and errors.
 
 - [Main](main.py): The main program.
 - [Application Log](app.log): The separate application log file.
