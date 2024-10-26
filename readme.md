@@ -28,7 +28,7 @@
 
 - [Main](main.py): The main program.
 - [.gitignore](.gitignore): The .gitignore used throughout my program.
-- [ENV File](/home/rl329/Midterm_Calculator/.env): The .env file I created were it would display the API Keys. etc.
+- [.env File](.env): The .env file I created were it would display the API Keys. etc.
 
 ### Logging
 
@@ -47,7 +47,7 @@
     The 'Look Before You Leap' would check if a condition is true befoe taking action toa void rasing exceptions.
     Meanwhile, the 'Easier to Ask for Forgiveness than Permission' would try an operation directly and handles exceptions if they occur.
 
--[Calculator History](calculator_app/calc_history.py): Calculator History code.
+- [Calculator History](calculator_app/calc_history.py): Calculator History code.
 
 
 
