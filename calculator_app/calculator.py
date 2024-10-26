@@ -14,13 +14,13 @@ class Calculator:
         "divide": divide,
     }
 
-    @classmethod
-    def perform_operation(cls, a: Decimal, b: Decimal, operation_name: str) -> Decimal:
-        """Perform a mathematical operation and store the result."""
-        try:
-            operation_func = cls.operations_map[operation_name]
-        except KeyError:
-            raise ValueError(f"Invalid operation: {operation_name}")
+@classmethod
+def perform_operation(cls, a: Decimal, b: Decimal, operation_name: str) -> Decimal:
+    """Perform a mathematical operation and store the result."""
+    try:
+        operation_func = cls.operations_map[operation_name]
+    except KeyError:
+        raise ValueError(f"Invalid operation: {operation_name}")
 
         result = operation_func(a, b)
         calculation = Calculation(a, b, operation_func)
