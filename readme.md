@@ -41,7 +41,13 @@
 - [app.log](app.log): The separate application log file.
 
 
+    ### Usage of Try/Catch/Exceptions (LBYL and EAFP)
 
+    In my program I implented both LBYL and EAFP. Both of these were implemented in my calc_history.py file.
+    The 'Look Before You Leap' would check if a condition is true befoe taking action toa void rasing exceptions.
+    Meanwhile, the 'Easier to Ask for Forgiveness than Permission' would try an operation directly and handles exceptions if they occur.
+
+-[Calculator History](calculator_app/calc_history.py): Calculator History code.
 
 
 
