@@ -21,3 +21,139 @@
 2024-10-25 00:33:02,131 - INFO - Displaying initial menu
 2024-10-25 00:33:49,460 - INFO - Executed command: AddCommand with inputs 4, 4
 2024-10-25 00:33:53,080 - INFO - User exited the program
+2024-10-25 20:38:08,554 - INFO - Running in development mode
+2024-10-25 20:38:08,554 - INFO - Using API key: your_api_key_here
+2024-10-25 20:38:08,556 - INFO - Loaded plugins: ['add_command', 'divide_command', 'multiply_command', 'subtract_command']
+2024-10-25 20:38:08,556 - INFO - Displaying initial menu
+2024-10-25 20:38:28,249 - INFO - Executed command: AddCommand with inputs 4, 4
+2024-10-25 20:39:24,734 - INFO - Executed command: AddCommand with inputs 5, 5
+2024-10-25 20:40:18,441 - INFO - Executed command: AddCommand with inputs 4, 4
+2024-10-25 20:42:37,678 - INFO - User exited the program
+2024-10-25 20:42:40,100 - INFO - Running in development mode
+2024-10-25 20:42:40,100 - INFO - Using API key: your_api_key_here
+2024-10-25 20:42:40,101 - INFO - Loaded plugins: ['add_command', 'divide_command', 'multiply_command', 'subtract_command']
+2024-10-25 20:42:40,101 - INFO - Displaying initial menu
+2024-10-25 20:42:51,574 - INFO - Executed command: AddCommand with inputs 5, 5
+2024-10-25 20:48:19,774 - INFO - Running in development mode
+2024-10-25 20:48:19,774 - INFO - Using API key: your_api_key_here
+2024-10-25 20:48:19,775 - INFO - Loaded plugins: ['add_command', 'divide_command', 'multiply_command', 'subtract_command']
+2024-10-25 20:48:19,775 - INFO - Displaying initial menu
+2024-10-25 20:48:30,504 - INFO - Executed command: AddCommand with inputs 4, 4
+2024-10-25 20:48:47,140 - INFO - Executed command: SubtractCommand with inputs 10, 5
+2024-10-25 20:50:25,036 - INFO - User exited the program
+2024-10-25 21:22:52,349 - INFO - Performed add with 5 and 5
+2024-10-25 21:22:52,354 - INFO - Result of add: 10
+2024-10-25 21:30:33,827 - INFO - Loaded plugins: ['add_command', 'divide_command', 'multiply_command', 'subtract_command']
+2024-10-25 21:42:31,030 - INFO - Loaded plugins: ['add_command', 'divide_command', 'multiply_command', 'subtract_command']
+2024-10-25 21:44:52,512 - INFO - Loaded plugins: ['add_command', 'divide_command', 'multiply_command', 'subtract_command']
+2024-10-25 21:46:23,694 - INFO - Loaded plugins: ['add_command', 'divide_command', 'multiply_command', 'subtract_command']
+2024-10-25 21:53:40,579 - INFO - Loaded plugins: ['add_command', 'divide_command', 'multiply_command', 'subtract_command']
+2024-10-25 21:58:38,854 - INFO - Loaded plugins: ['add_command', 'divide_command', 'multiply_command', 'subtract_command']
+2024-10-25 22:00:49,113 - INFO - Loaded plugins: ['add_command', 'divide_command', 'multiply_command', 'subtract_command']
+2024-10-25 22:06:53,280 - INFO - Running in development mode
+2024-10-25 22:06:53,281 - INFO - Using API key: your_api_key_here
+2024-10-25 22:06:53,284 - INFO - Loaded plugins: ['add_command', 'divide_command', 'multiply_command', 'subtract_command']
+2024-10-25 22:06:53,284 - INFO - Displaying initial menu
+2024-10-25 22:06:59,923 - INFO - Executed command: AddCommand with inputs 3, 3
+2024-10-25 22:12:31,947 - INFO - User exited the program
+2024-10-25 22:26:59,929 - INFO - Running in development mode
+2024-10-25 22:26:59,929 - INFO - Using API key: your_api_key_here
+2024-10-25 22:26:59,932 - INFO - Loaded plugins: ['add_command', 'divide_command', 'multiply_command', 'subtract_command']
+2024-10-25 22:29:08,344 - INFO - User exited the program
+2024-10-25 22:29:10,141 - INFO - Running in development mode
+2024-10-25 22:29:10,141 - INFO - Using API key: your_api_key_here
+2024-10-25 22:29:10,144 - INFO - Loaded plugins: ['add_command', 'divide_command', 'multiply_command', 'subtract_command']
+2024-10-25 22:33:43,878 - INFO - User exited the program
+2024-10-25 22:33:45,690 - INFO - Running in development mode
+2024-10-25 22:33:45,690 - INFO - Using API key: your_api_key_here
+2024-10-25 22:33:45,693 - INFO - Loaded plugins: ['add_command', 'divide_command', 'multiply_command', 'subtract_command']
+2024-10-25 22:33:49,716 - INFO - Executed command: AddCommand with inputs (3, 3)
+2024-10-25 22:33:53,743 - INFO - History saved successfully.
+2024-10-25 22:33:56,207 - INFO - History loaded successfully.
+2024-10-25 22:35:39,070 - INFO - User exited the program
+2024-10-25 22:35:41,016 - INFO - Running in development mode
+2024-10-25 22:35:41,016 - INFO - Using API key: your_api_key_here
+2024-10-25 22:35:41,017 - INFO - Loaded plugins: ['add_command', 'divide_command', 'multiply_command', 'subtract_command']
+2024-10-25 22:35:45,603 - INFO - Executed command: AddCommand with inputs (3, 3)
+2024-10-25 22:35:52,470 - INFO - History saved successfully.
+2024-10-25 22:36:00,568 - INFO - History loaded successfully.
+2024-10-25 22:37:58,512 - INFO - User exited the program
+2024-10-25 22:38:22,321 - INFO - Running in development mode
+2024-10-25 22:38:22,321 - INFO - Using API key: your_api_key_here
+2024-10-25 22:38:22,323 - INFO - Loaded plugins: ['add_command', 'divide_command', 'multiply_command', 'subtract_command']
+2024-10-25 22:42:00,637 - INFO - User exited the program
+2024-10-25 22:42:03,368 - INFO - Running in development mode
+2024-10-25 22:42:03,368 - INFO - Using API key: your_api_key_here
+2024-10-25 22:42:03,371 - INFO - Loaded plugins: ['add_command', 'divide_command', 'multiply_command', 'subtract_command']
+2024-10-25 22:44:40,960 - INFO - User exited the program
+2024-10-25 22:44:42,380 - INFO - Running in development mode
+2024-10-25 22:44:42,380 - INFO - Using API key: your_api_key_here
+2024-10-25 22:44:42,383 - INFO - Loaded plugins: ['add_command', 'divide_command', 'multiply_command', 'subtract_command']
+2024-10-25 22:44:46,382 - INFO - Executed command: AddCommand with inputs (3, 3)
+2024-10-25 22:44:56,163 - INFO - History saved successfully.
+2024-10-25 22:45:04,923 - INFO - History loaded successfully.
+2024-10-25 22:48:13,080 - INFO - User exited the program
+2024-10-25 22:48:14,953 - INFO - Running in development mode
+2024-10-25 22:48:14,954 - INFO - Using API key: your_api_key_here
+2024-10-25 22:48:14,954 - INFO - Loaded plugins: ['add_command', 'divide_command', 'multiply_command', 'subtract_command']
+2024-10-25 22:48:22,872 - INFO - Executed command: AddCommand with inputs (2, 2)
+2024-10-25 22:48:26,176 - INFO - History saved successfully.
+2024-10-25 22:48:37,471 - INFO - History loaded successfully.
+2024-10-25 22:50:40,345 - INFO - User exited the program
+2024-10-25 22:50:42,580 - INFO - Running in development mode
+2024-10-25 22:50:42,580 - INFO - Using API key: your_api_key_here
+2024-10-25 22:50:42,580 - INFO - Loaded plugins: ['add_command', 'divide_command', 'multiply_command', 'subtract_command']
+2024-10-25 22:50:45,791 - INFO - Executed command: AddCommand with inputs (3, 3)
+2024-10-25 22:50:48,932 - INFO - History saved successfully.
+2024-10-25 22:51:03,157 - INFO - User exited the program
+2024-10-25 22:51:10,858 - INFO - Running in development mode
+2024-10-25 22:51:10,858 - INFO - Using API key: your_api_key_here
+2024-10-25 22:51:10,859 - INFO - Loaded plugins: ['add_command', 'divide_command', 'multiply_command', 'subtract_command']
+2024-10-25 22:51:17,490 - INFO - Executed command: AddCommand with inputs (3, 2)
+2024-10-25 22:51:27,683 - INFO - History saved successfully.
+2024-10-25 22:53:19,021 - INFO - User exited the program
+2024-10-25 22:53:47,079 - INFO - Running in development mode
+2024-10-25 22:53:47,079 - INFO - Using API key: your_api_key_here
+2024-10-25 22:53:47,080 - INFO - Loaded plugins: ['add_command', 'divide_command', 'multiply_command', 'subtract_command']
+2024-10-25 22:53:51,211 - INFO - Executed command: AddCommand with inputs (3, 3)
+2024-10-25 22:54:01,509 - INFO - History saved successfully.
+2024-10-25 22:54:16,592 - INFO - History loaded successfully.
+2024-10-25 22:57:16,757 - INFO - User exited the program
+2024-10-25 22:57:30,771 - INFO - Running in development mode
+2024-10-25 22:57:30,772 - INFO - Using API key: your_api_key_here
+2024-10-25 22:57:30,772 - INFO - Loaded plugins: ['add_command', 'divide_command', 'multiply_command', 'subtract_command']
+2024-10-25 22:57:35,025 - INFO - Executed command: AddCommand with inputs (3, 3)
+2024-10-25 22:58:00,737 - INFO - History saved successfully.
+2024-10-25 22:58:49,392 - WARNING - Invalid command entered: wuit
+2024-10-25 22:58:56,658 - WARNING - Invalid command entered: cat history.csv
+2024-10-25 22:58:59,779 - INFO - User exited the program
+2024-10-25 23:06:41,222 - INFO - Running in development mode
+2024-10-25 23:06:41,222 - INFO - Using API key: your_api_key_here
+2024-10-25 23:06:41,223 - INFO - Loaded plugins: ['add_command', 'divide_command', 'multiply_command', 'subtract_command']
+2024-10-25 23:06:54,667 - INFO - Executed command: AddCommand with inputs (3, 3)
+2024-10-25 23:07:04,390 - INFO - History saved successfully.
+2024-10-25 23:09:51,025 - INFO - User exited the program
+2024-10-25 23:09:54,925 - INFO - Running in development mode
+2024-10-25 23:09:54,925 - INFO - Using API key: your_api_key_here
+2024-10-25 23:09:54,928 - INFO - Loaded plugins: ['add_command', 'divide_command', 'multiply_command', 'subtract_command']
+2024-10-25 23:09:57,412 - WARNING - Invalid command entered: ad
+2024-10-25 23:09:59,000 - WARNING - Invalid command entered: ad
+2024-10-25 23:10:02,283 - INFO - Executed command: AddCommand with inputs (3, 3)
+2024-10-25 23:10:27,491 - INFO - History saved successfully.
+2024-10-25 23:13:10,747 - INFO - User exited the program
+2024-10-25 23:13:12,890 - INFO - Running in development mode
+2024-10-25 23:13:12,890 - INFO - Using API key: your_api_key_here
+2024-10-25 23:13:12,893 - INFO - Loaded plugins: ['add_command', 'divide_command', 'multiply_command', 'subtract_command']
+2024-10-25 23:13:15,320 - INFO - Executed command: AddCommand with inputs (3, 3)
+2024-10-25 23:13:22,846 - INFO - Executed command: AddCommand with inputs (3, 3)
+2024-10-25 23:13:24,289 - INFO - History saved successfully.
+2024-10-25 23:13:50,281 - INFO - User exited the program
+2024-10-25 23:14:26,019 - INFO - Running in development mode
+2024-10-25 23:14:26,019 - INFO - Using API key: your_api_key_here
+2024-10-25 23:14:26,020 - INFO - Loaded plugins: ['add_command', 'divide_command', 'multiply_command', 'subtract_command']
+2024-10-25 23:14:33,744 - INFO - Executed command: AddCommand with inputs (3, 3)
+2024-10-25 23:14:36,487 - INFO - History saved successfully.
+2024-10-25 23:19:49,761 - INFO - User exited the program
+2024-10-25 23:34:14,015 - INFO - Running in development mode
+2024-10-25 23:34:14,016 - INFO - Using API key: your_api_key_here
+2024-10-25 23:34:14,019 - INFO - Loaded plugins: ['add_command', 'divide_command', 'multiply_command', 'subtract_command']

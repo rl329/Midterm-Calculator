@@ -17,24 +17,25 @@ class Command:
         raise NotImplementedError("Execute method not implemented.")
 
 class AddCommand(Command):
-    """Command to perform addition."""
     def execute(self) -> Decimal:
-        return self.calculator.add(self.a, self.b)
+        """Execute the addition command."""
+        return self.calculator.perform_operation(self.a, self.b, "add")
 
 class SubtractCommand(Command):
-    """Command to perform subtraction."""
     def execute(self) -> Decimal:
-        return self.calculator.subtract(self.a, self.b)
+        """Execute the subtraction command."""
+        return self.calculator.perform_operation(self.a, self.b, "subtract")
 
 class MultiplyCommand(Command):
-    """Command to perform multiplication."""
     def execute(self) -> Decimal:
-        return self.calculator.multiply(self.a, self.b)
+        """Execute the multiplication command."""
+        return self.calculator.perform_operation(self.a, self.b, "multiply")
 
 class DivideCommand(Command):
-    """Command to perform division."""
     def execute(self) -> Decimal:
-        return self.calculator.divide(self.a, self.b)
+        """Execute the division command."""
+        return self.calculator.perform_operation(self.a, self.b, "divide")
+
 
 class MenuCommand(Command):
     """Command to display the menu."""
