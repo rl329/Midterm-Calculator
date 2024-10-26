@@ -1,3 +1,5 @@
 A,B,Operation,Result
-3,3,add,6
-3,3,multiply,9
+7,3,add,10
+5,3,multiply,15
+8,2,divide,4
+14,6,subtract,8
